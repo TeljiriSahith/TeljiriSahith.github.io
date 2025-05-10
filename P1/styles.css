@@ -38,6 +38,7 @@ header a{
     background-color: white;
     border-radius: 20px;
     margin: 10px;
+    transition: transform .5s;
 }
 
 .btn1{
@@ -47,6 +48,7 @@ header a{
     font-size: 20px;
     border-radius: 10px;
     border:none;
+    transition: transform .5s;
 }
 
 .summary {
@@ -69,4 +71,32 @@ header a{
     background-color: rgb(255, 203, 107);
     color: black;
     font-size: 14px;
+}
+.service-section {
+    margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.service-image {
+  width: 300px; /* or any size you prefer */
+  height: auto;
+  border-radius: 10px;
+}
+
+.service-list {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.box:hover {
+    transform: scale(1.1,1.1);
+    transform-style: preserve-3d;
+    color: rgb(0, 0, 0);
+    background-color: cyan;
 }
