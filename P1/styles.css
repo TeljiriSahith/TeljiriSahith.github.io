@@ -33,8 +33,11 @@ header a{
 }
 
 .box {
-    width: 500px;
+        width: 400px;
     padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
 }
 
 .btn1{
@@ -58,4 +61,12 @@ header a{
 
 .title {
     font-size: 30px;
+}
+.foot {
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(255, 203, 107);
+    color: black;
+    font-size: 14px;
 }
