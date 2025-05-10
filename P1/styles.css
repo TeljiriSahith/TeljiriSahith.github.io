@@ -14,10 +14,42 @@ header {
     color: rgb(0, 98, 255);
     padding: 10px;
 }
+header a {
+    text-decoration: none;
+}
 
-li {
+header li {
     display: inline-block;
     font-size: 20px;
     padding: 5px;
+}
+.row {
+    display: flex;
+    padding: left;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.btn1 {
+    margin-top: 10px;
+    background-color: aqua;
+    font-size: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.summary {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.box {
+    width: 300;
+    padding: 20px;
+    display: inline-block;
+}
+.title {
+    font-size: 30px;
+}
+    .image{
+    border-radius:100px;
+    
 }
 
